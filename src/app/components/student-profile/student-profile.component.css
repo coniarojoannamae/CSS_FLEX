@@ -1,0 +1,39 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Maximum width of the card */
+  }
+  
+  .profile-image {
+    width: 150px; /* Set a fixed width for the image */
+    height: 150px; /* Set a fixed height for the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 15px;
+  }
+  
+  .profile-name {
+    font-size: 1.8em;
+    margin: 10px 0;
+  }
+  
+  .profile-major {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .profile-bio {
+    font-size: 1em;
+    color: #777;
+    margin-top: 10px;
+  }

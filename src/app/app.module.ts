@@ -7,10 +7,12 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppComponent} from "./app.component";
 import { ProductsComponent } from './components/products/products.component';
 import { EmployeeCardsComponent } from './components/employee-cards/employee-cards.component';
+import { StudentProfileComponent } from './components/student-profile/student-profile.component';
 
 const routes: Routes = [
     { path: 'products', component: ProductsComponent},
     { path: 'employee-cards', component: EmployeeCardsComponent},
+    { path: 'student-profile', component: StudentProfileComponent},
 ];
 
 @NgModule({
@@ -26,6 +28,7 @@ const routes: Routes = [
         AppComponent,
         ProductsComponent,
         EmployeeCardsComponent,
+        StudentProfileComponent
     ],
   
     bootstrap: [
