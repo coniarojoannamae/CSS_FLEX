@@ -1,0 +1,7 @@
+<div class="employee-container">
+    <div class="employee-card" *ngFor="let employee of employees">
+      <img [src]="employee.photo" alt="{{ employee.name }}" class="employee-image">
+      <h4 class="employee-name">{{ employee.name }}</h4>
+      <p class="employee-position">{{ employee.position }}</p>
+    </div>
+  </div>
