@@ -4,6 +4,7 @@
 CSS Flexbox, short for Flexible Box Layout, is a layout model in CSS designed to simplify the alignment, distribution, and spacing of elements within a container. It is especially useful for creating responsive and dynamic layouts.
 
 ### Firebase: https://cssflexsvfc-4a.web.app
+### Hashnode: https://act4.hashnode.dev/activity-26-css-flex
 
 ```typescript
 ## Product Layout
